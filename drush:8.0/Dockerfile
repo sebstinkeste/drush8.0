@@ -1,4 +1,4 @@
-FROM hub.alterway.fr/php:5.5-fpm
+FROM hub.alterway.fr/php:5.6-fpm
 
 # Install Drush using Composer
 RUN apt-get update \
