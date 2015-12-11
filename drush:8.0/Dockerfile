@@ -11,6 +11,7 @@ RUN apt-get update \
     && apt-get install -y unzip
 
 WORKDIR /var/www
+COPY composer.json /var/www/composer.json
 
 ENV PHP_php5enmod 'bcmath mbstring pcntl zip pdo_mysql opcache gd'
 

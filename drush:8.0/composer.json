@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+    },
+    "require": {
+
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
