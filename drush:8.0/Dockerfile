@@ -14,5 +14,5 @@ WORKDIR /var/www
 
 ENV PHP_php5enmod 'bcmath mbstring pcntl zip pdo_mysql opcache gd'
 
-
+ENTRYPOINT ["drush"]
 
